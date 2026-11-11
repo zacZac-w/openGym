@@ -1,0 +1,7 @@
+# Personal deployment configuration, added 2026-11-12.
+# Pin the initial deployment; update both images together deliberately.
+services:
+  api:
+    image: ghcr.io/duartesantos8/opengym-api:1.4.4
+  web:
+    image: ghcr.io/duartesantos8/opengym-web:1.4.4
